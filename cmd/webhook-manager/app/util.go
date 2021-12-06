@@ -19,6 +19,7 @@ package app
 import (
 	"context"
 	"crypto/tls"
+	"k8s.io/client-go/dynamic"
 	"regexp"
 	"strings"
 
@@ -85,6 +86,14 @@ func registerWebhookConfig(kubeClient *kubernetes.Clientset, config *options.Con
 // getKubeClient Get a clientset with restConfig.
 func getKubeClient(restConfig *rest.Config) *kubernetes.Clientset {
 	clientset, err := kubernetes.NewForConfig(restConfig)
+	if err != nil {
+		klog.Fatal(err)
+	}
+	return clientset
+}
+
+func getDyClient(restConfig *rest.Config) dynamic.Interface {
+	clientset, err := dynamic.NewForConfig(restConfig)
 	if err != nil {
 		klog.Fatal(err)
 	}
