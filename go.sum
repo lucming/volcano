@@ -1119,10 +1119,6 @@ k8s.io/kubernetes v1.19.15/go.mod h1:HD/Q62CbvekHttYG9YffbrTHx54dkZCnF7t3oJCzxOA
 k8s.io/legacy-cloud-providers v0.19.15/go.mod h1:CviA1ITHokJWcONdCD4m7VObsZ+YyF/9gAdGMEln+10=
 k8s.io/metrics v0.19.15/go.mod h1:xHMgIwqMBSRW+tQ+R1zc21iahbqd0OQpXk20inwVW1c=
 k8s.io/sample-apiserver v0.19.15/go.mod h1:TxAJkD0ooec5PfiCDHVT9s8S4X7sIpG0HWLGTazOfB4=
-k8s.io/sample-cli-plugin v0.19.15 h1:U2KzQ0lqxX0rxjYAlHG5YmOhY+SrJwZG+IKHEYmhBZ0=
-k8s.io/sample-cli-plugin v0.19.15/go.mod h1:EKbMQqe54+nv6PIEEy6BRFx4qg22Hx0iwfS/FwwwdUY=
-k8s.io/sample-controller v0.19.15 h1:og6wVmg/2QmV/ZSYGF73a7K50+SRQ+WTxV10IUqUqIk=
-k8s.io/sample-controller v0.19.15/go.mod h1:9g/ZLcusY8UFQSrnLZ11kpVojLSd6P8mvNNaBX9JndQ=
 k8s.io/system-validators v1.1.2/go.mod h1:bPldcLgkIUK22ALflnsXk8pvkTEndYdNuaHH6gRrl0Q=
 k8s.io/utils v0.0.0-20200414100711-2df71ebbae66/go.mod h1:jPW/WVKK9YHAvNhRxK0md/EJ228hCsBRufyofKtW8HA=
 k8s.io/utils v0.0.0-20200729134348-d5654de09c73 h1:uJmqzgNWG7XyClnU/mLPBWwfKKF1K8Hf8whTseBgJcg=
